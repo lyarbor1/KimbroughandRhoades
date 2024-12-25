@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimbrough and Rhoades Law Firm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .hero h2 {
+            margin: 0;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .content h2 {
+            color: #333;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+
+        .service {
+            text-align: center;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+        }
+
+        .service h3 {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .logo img {
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kimbrough and Rhoades Law Firm</h1>
+        <p>Your Trusted Legal Partner</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Expert Legal Services Across All Specialties</h2>
+        <p>We are committed to providing exceptional legal support and representation.</p>
+    </section>
+
+    <div class="logo">
+        <img src="https://via.placeholder.com/150" alt="Kimbrough and Rhoades Law Firm Logo">
+        <p><strong>Kimbrough and Rhoades Law Firm</strong></p>
+    </div>
+
+    <section class="content" id="about">
+        <h2>About Us</h2>
+        <p>Kimbrough and Rhoades Law Firm has been serving clients with dedication and professionalism for over 20 years. Our team of experienced attorneys specializes in all areas of law to meet your legal needs.</p>
+    </section>
+
+    <section class="content" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Corporate Law</h3>
+                <p>Expert guidance for businesses of all sizes.</p>
+            </div>
+            <div class="service">
+                <h3>Family Law</h3>
+                <p>Compassionate support for family matters.</p>
+            </div>
+            <div class="service">
+                <h3>Criminal Defense</h3>
+                <p>Strong representation when it matters most.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Lead Attorney: Steven R. Kimbrough</p>
+        <p>Phone: 612-501-8918</p>
+        <p>Email: KRlawfirm@gmail.com</p>
+        <p>Address: 67 Main St, Buford, GA 30518</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kimbrough and Rhoades Law Firm. All rights reserved.</p>
+    </footer>
+</body>
+</html>
